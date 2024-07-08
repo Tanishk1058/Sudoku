@@ -1,0 +1,8 @@
+-The objective of this project is to develop a Sudoku game solver using C++ programming language and Data Structures and Algorithms (DSA).
+-The program will take a Sudoku puzzle as input from the user,solve it using a backtracking algorithm, and display the solved puzzle.
+
+-User Input Handling: The program allows users to input a Sudoku puzzle through the console. The input should be in a 9x9 grid format, with zeros representing empty cells.
+-Backtracking Algorithm: The core of the solver uses the backtracking algorithm, a common technique in recursive problem-solving, to explore all possible number placements in the grid.
+-Grid Representation: The Sudoku grid is represented using a 2D array (vector of vectors in C++), facilitating easy access and manipulation of cell values.
+-Validation: The solver includes functions to check if placing a number in a specific cell is valid according to Sudoku rules (no repeated numbers in rows, columns, or 3x3 subgrids).
+-Output: After solving the puzzle, the program displays the completed Sudoku grid in a readable format.
