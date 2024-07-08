@@ -1,0 +1,29 @@
+#include "SudokuSolver.h"
+
+SudokuSolver::SudokuSolver() {
+
+}
+
+void SudokuSolver::inputPuzzle() {
+
+}
+
+void SudokuSolver::solve() {
+
+}
+
+void SudokuSolver::printPuzzle() const {
+
+}
+
+bool SudokuSolver::solveSudoku() {
+    int row, col;
+
+    return false;
+}
+
+bool SudokuSolver::isSafe(int row, int col, int num) const {
+    for (int x = 0; x < GRID_SIZE; ++x) {
+        if (grid[row][x] == num || grid[x][col] == num || 
+            grid[row - row % 3 + x / 3][col - col % 3 + x % 3] == num) {
+           
